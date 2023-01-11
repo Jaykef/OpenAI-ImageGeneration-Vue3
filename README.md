@@ -12,7 +12,8 @@ Create a .env file and add in you OpenAI API key:
 ```sh
 VITE_OpenApiKey=YOUR_API_KEY
 ```
-
+## Customize configuration
+See [Vite Configuration Reference](https://vitejs.dev/config/).
 ```sh
 npm install
 ```
