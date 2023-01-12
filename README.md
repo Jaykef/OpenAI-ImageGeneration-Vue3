@@ -2,7 +2,8 @@
 Utilizing OpenAI's Image Generation api with vue3, vite and pinia(similar to the DALLE app)
 
 ## Project Setup
-Create a .env file and add in you OpenAI API key:
+Create a .env file and add in you OpenAI API key.
+Create API key <a href="https://beta.openai.com/account/api-keys">here</a>
 
 ```sh
 VITE_OpenApiKey=YOUR_API_KEY
