@@ -58,6 +58,11 @@ var prompt = ref();
 </template>
 
 <style scoped>
+.container {
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
 .list-enter-from{
     opacity: 0;
     transform: scale(0.6);
