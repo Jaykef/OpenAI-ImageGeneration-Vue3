@@ -1,12 +1,9 @@
 <script setup>
-import { initCustomFormatter, ref } from 'vue';
-
-
-import {useImageStore} from "./stores/ImageStore"
-import { onMounted } from 'vue';
+import { ref } from 'vue';
+import {useImageStore} from "./stores/ImageStore";
 const ImageStore  = useImageStore();
 const disabled =ref(false);
-const state = ref("Images will show here")
+const state = ref("Images will show here");
 
 
 async function search(){
